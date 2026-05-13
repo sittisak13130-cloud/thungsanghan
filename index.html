@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สารคดีเขมรแดง (Khmer Rouge) | ทุ่งสังหาร</title>
+    <style>
+        /* ---- CSS: กำหนดสไตล์หน้าเว็บ ---- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121212; /* ธีมมืด */
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            width: 100%;
+            background: #1e1e1e;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #ff4d4d; /* สีแดงสะท้อนประวัติศาสตร์ */
+            border-left: 5px solid #ff4d4d;
+            padding-left: 10px;
+            line-height: 1.3;
+        }
+
+        /* สำหรับควบคุม Iframe ให้ยืดหยุ่นตามหน้าจอ (Responsive) */
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* อัตราส่วน 16:9 */
+            height: 0;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #000;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .btn-toggle {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .btn-toggle:hover {
+            background-color: #cc3333;
+        }
+
+        .info-content {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 8px;
+            line-height: 1.6;
+            display: none; /* ซ่อนไว้ก่อนตอนแรก */
+            animation: fadeIn 0.5s ease forwards;
+        }
+
+        .info-content h2 {
+            font-size: 1.3rem;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        .info-content ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .info-content li {
+            margin-bottom: 8px;
+        }
+
+        /* แอนิเมชันตอนเปิดแสดงข้อมูล */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* ปรับขนาดหน้าจอสำหรับมือถือ */
+        @media (max-width: 600px) {
+            .container { padding: 15px; }
+            h1 { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ---- HTML: โครงสร้างหน้าเว็บ ---- -->
+    <div class="container">
+        <h1>สารคดีเขมรแดง (Khmer ROUGE) (ตอนเดียวจบ) ทุ่งสังหารที่ไม่ใช่แค่ตำนาน</h1>
+        
+        <!-- ส่วนวิดีโอ YouTube ที่ใช้ Code ฝังตัวที่คุณส่งมา -->
+        <div class="video-wrapper">
+            <iframe src="youtube.com" title="สารคดี​เขมรแดง(Khmer ROUGE )​(ตอนเดียวจบ)​ ทุ่งสังหาร​ที่​ไม่ใช่​แค่​ตำนาน​ สะเทือนขวัญทั้งเขมร....." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- ปุ่มกดสำหรับโชว์เนื้อหาเพิ่มเติมด้วย JS -->
+        <button class="btn-toggle" id="toggleBtn">คลิกเพื่อดูเรื่องย่อ / บทเรียนประวัติศาสตร์</button>
+
+        <!-- ส่วนเนื้อหารายละเอียด -->
+        <div class="info-content" id="infoBox">
+            <h2>ใจความสำคัญและบทเรียนทางประวัติศาสตร์</h2>
+            <p>เรื่องราวโศกนาฏกรรมที่โหดร้ายที่สุดในประวัติศาสตร์โลกยุคศตวรรษที่ 20 ซึ่งเกิดขึ้นในประเทศกัมพูชาระหว่างปี พ.ศ. 2518–2522 ภายใต้การนำของ พล พต (Pol Pot)</p>
+            <ul>
+                <li><strong>การก้าวสู่อำนาจ:</strong> เขมรแดงเข้ายึดกรุงพนมเปญในวันที่ 17 เมษายน พ.ศ. 2518 และอพยพประชาชนสู่ชนบททันที</li>
+                <li><strong>ระบอบ Year Zero:</strong> รีเซ็ตประเทศนับศูนย์ ยกเลิกเงินตรา โรงเรียน และกวาดล้างกลุ่มคนที่มีความรู้</li>
+                <li><strong>ทุ่งสังหาร (The Killing Fields):</strong> พื้นที่ประหารชีวิตกระจายอยู่ทั่วประเทศกว่า 300 แห่ง ส่งผลให้มีผู้เสียชีวิตรวมกว่า 1.7 - 3 ล้านคน</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ---- JavaScript: ควบคุมการโต้ตอบ ---- -->
+    <script>
+        const toggleBtn = document.getElementById('toggleBtn');
+        const infoBox = document.getElementById('infoBox');
+
+        toggleBtn.addEventListener('click', () => {
+            // เช็กว่าถ้าข้อมูลซ่อนอยู่ให้แสดงซะ แต่ถ้าแสดงอยู่ให้ซ่อน
+            if (infoBox.style.display === 'none' || infoBox.style.display === '') {
+                infoBox.style.display = 'block';
+                toggleBtn.textContent = 'ปิดกล่องข้อมูลเนื้อหา';
+                toggleBtn.style.backgroundColor = '#555'; // เปลี่ยนสีปุ่มตอนกดเปิดแล้ว
+            } else {
+                infoBox.style.display = 'none';
+                toggleBtn.textContent = 'คลิกเพื่อดูเรื่องย่อ / บทเรียนประวัติศาสตร์';
+                toggleBtn.style.backgroundColor = '#ff4d4d'; // เปลี่ยนสีปุ่มกลับเป็นสีแดง
+            }
+        });
+    </script>
+
+</body>
+</html>
